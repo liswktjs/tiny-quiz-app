@@ -8,7 +8,9 @@ const Root = ({
   return (
     <html lang="ko">
       <Provider>
-        <body>{children}</body>
+        <body className="w-screen h-screen relative">
+          {children}
+        </body>
       </Provider>
     </html>
   );
