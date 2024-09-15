@@ -2,6 +2,10 @@ export const colors = {
   black_400: "#1C1C1C",
   black_500: "#000000",
 
+  charcoal_50: "#F5F9FB",
+  charcoal_100: "#EBF1F4",
+  charcoal_200: "#D9E3E7",
+  charcoal_300: "#B4C7CE",
   charcoal_400: "#90A5AD",
   charcoal_500: "#718188",
 
