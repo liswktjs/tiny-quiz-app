@@ -9,7 +9,7 @@ const Home = () => {
       <Header />
       <main className="w-full h-[calc(100%-20rem)] flex justify-center items-center">
         <section className="w-fit flex flex-col gap-16">
-          <h1 className="text-5xl text-black_500">
+          <h1 className="text-5xl text-black_500 font-black">
             Welcome to Quiz App
           </h1>
           <Link

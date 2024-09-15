@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header className="w-full h-20 bg-cobalt_500 flex justify-between items-center px-5">
-      <h1 className="text-4xl text-white">
+      <h1 className="text-4xl text-white font-bold">
         Quiz App
       </h1>
 
