@@ -1,11 +1,11 @@
 import {
-  HTMLAttributes,
+  ButtonHTMLAttributes,
   PropsWithChildren,
 } from "react";
 import cn from "classnames";
 
 interface Props
-  extends HTMLAttributes<HTMLButtonElement> {
+  extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "black" | "cobalt";
 }
 
@@ -18,7 +18,7 @@ const Button = ({
   return (
     <button
       className={cn(
-        `${className} rounded-lg border-none disabled:bg-charcoal_400 disabled:text-black_500`,
+        `${className} rounded-lg border-none disabled:bg-charcoal_100 disabled:text-charcoal_400 disabled:cursor-not-allowed hover:cursor-pointer`,
         {
           "bg-black_500 text-white hover:bg-black_400":
             variant === "black",
