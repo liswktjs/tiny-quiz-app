@@ -1,0 +1,500 @@
+[
+  {
+    "id": "1",
+    "title": "General Knowledge Quiz",
+    "author": "John Doe",
+    "created": "2024-09-15",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "What is the capital of France?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Berlin"
+          },
+          {
+            "id": 2,
+            "content": "Madrid"
+          },
+          {
+            "id": 3,
+            "content": "Paris"
+          },
+          { "id": 4, "content": "Rome" }
+        ],
+        "answerId": 3
+      },
+      {
+        "id": "2",
+        "quiz": "What is the smallest planet in our solar system?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Earth"
+          },
+          {
+            "id": 2,
+            "content": "Venus"
+          },
+          {
+            "id": 3,
+            "content": "Mercury"
+          },
+          { "id": 4, "content": "Mars" }
+        ],
+        "answerId": 3
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Science Facts Quiz",
+    "author": "Jane Smith",
+    "created": "2024-09-14",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "What is the chemical symbol for water?",
+        "selector": [
+          { "id": 1, "content": "O" },
+          { "id": 2, "content": "H2O" },
+          { "id": 3, "content": "CO2" },
+          { "id": 4, "content": "NaCl" }
+        ],
+        "answerId": 2
+      },
+      {
+        "id": "2",
+        "quiz": "What gas do plants absorb from the atmosphere?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Oxygen"
+          },
+          {
+            "id": 2,
+            "content": "Carbon Dioxide"
+          },
+          {
+            "id": 3,
+            "content": "Nitrogen"
+          },
+          {
+            "id": 4,
+            "content": "Hydrogen"
+          }
+        ],
+        "answerId": 2
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "History Quiz",
+    "author": "Alice Johnson",
+    "created": "2024-09-13",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "Who was the first president of the United States?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Thomas Jefferson"
+          },
+          {
+            "id": 2,
+            "content": "Abraham Lincoln"
+          },
+          {
+            "id": 3,
+            "content": "George Washington"
+          },
+          {
+            "id": 4,
+            "content": "John Adams"
+          }
+        ],
+        "answerId": 3
+      },
+      {
+        "id": "2",
+        "quiz": "In which year did World War II end?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "1939"
+          },
+          {
+            "id": 2,
+            "content": "1945"
+          },
+          {
+            "id": 3,
+            "content": "1950"
+          },
+          { "id": 4, "content": "1960" }
+        ],
+        "answerId": 2
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Math Quiz",
+    "author": "David Brown",
+    "created": "2024-09-12",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "What is the value of Pi (approximately)?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "3.14"
+          },
+          {
+            "id": 2,
+            "content": "2.71"
+          },
+          {
+            "id": 3,
+            "content": "1.41"
+          },
+          { "id": 4, "content": "4.67" }
+        ],
+        "answerId": 1
+      },
+      {
+        "id": "2",
+        "quiz": "What is 9 multiplied by 6?",
+        "selector": [
+          { "id": 1, "content": "54" },
+          { "id": 2, "content": "36" },
+          { "id": 3, "content": "64" },
+          { "id": 4, "content": "45" }
+        ],
+        "answerId": 1
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Geography Quiz",
+    "author": "Emily Davis",
+    "created": "2024-09-11",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "Which is the largest continent?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Africa"
+          },
+          {
+            "id": 2,
+            "content": "Asia"
+          },
+          {
+            "id": 3,
+            "content": "Europe"
+          },
+          {
+            "id": 4,
+            "content": "Australia"
+          }
+        ],
+        "answerId": 2
+      },
+      {
+        "id": "2",
+        "quiz": "Which country is known as the Land of the Rising Sun?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Japan"
+          },
+          {
+            "id": 2,
+            "content": "China"
+          },
+          {
+            "id": 3,
+            "content": "India"
+          },
+          {
+            "id": 4,
+            "content": "South Korea"
+          }
+        ],
+        "answerId": 1
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Music Quiz",
+    "author": "Michael Lee",
+    "created": "2024-09-10",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "Who is known as the King of Pop?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Elvis Presley"
+          },
+          {
+            "id": 2,
+            "content": "Michael Jackson"
+          },
+          {
+            "id": 3,
+            "content": "Prince"
+          },
+          {
+            "id": 4,
+            "content": "Freddie Mercury"
+          }
+        ],
+        "answerId": 2
+      },
+      {
+        "id": "2",
+        "quiz": "Which musical instrument has 88 keys?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Guitar"
+          },
+          {
+            "id": 2,
+            "content": "Violin"
+          },
+          {
+            "id": 3,
+            "content": "Piano"
+          },
+          {
+            "id": 4,
+            "content": "Drums"
+          }
+        ],
+        "answerId": 3
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Sports Quiz",
+    "author": "Sarah Martinez",
+    "created": "2024-09-09",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "In which sport is the term 'home run' used?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Cricket"
+          },
+          {
+            "id": 2,
+            "content": "Football"
+          },
+          {
+            "id": 3,
+            "content": "Baseball"
+          },
+          {
+            "id": 4,
+            "content": "Basketball"
+          }
+        ],
+        "answerId": 3
+      },
+      {
+        "id": "2",
+        "quiz": "Which country has won the most FIFA World Cups?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Germany"
+          },
+          {
+            "id": 2,
+            "content": "Brazil"
+          },
+          {
+            "id": 3,
+            "content": "Argentina"
+          },
+          {
+            "id": 4,
+            "content": "France"
+          }
+        ],
+        "answerId": 2
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Technology Quiz",
+    "author": "Tom Johnson",
+    "created": "2024-09-08",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "Who founded Microsoft?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Steve Jobs"
+          },
+          {
+            "id": 2,
+            "content": "Elon Musk"
+          },
+          {
+            "id": 3,
+            "content": "Bill Gates"
+          },
+          {
+            "id": 4,
+            "content": "Mark Zuckerberg"
+          }
+        ],
+        "answerId": 3
+      },
+      {
+        "id": "2",
+        "quiz": "Which programming language is primarily used for web development?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Python"
+          },
+          { "id": 2, "content": "C++" },
+          {
+            "id": 3,
+            "content": "JavaScript"
+          },
+          { "id": 4, "content": "Java" }
+        ],
+        "answerId": 3
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Literature Quiz",
+    "author": "Anna Green",
+    "created": "2024-09-07",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "Who wrote 'Romeo and Juliet'?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Charles Dickens"
+          },
+          {
+            "id": 2,
+            "content": "William Shakespeare"
+          },
+          {
+            "id": 3,
+            "content": "Mark Twain"
+          },
+          {
+            "id": 4,
+            "content": "Jane Austen"
+          }
+        ],
+        "answerId": 2
+      },
+      {
+        "id": "2",
+        "quiz": "What is the main character in 'Moby-Dick' trying to hunt?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "A Giant Squid"
+          },
+          {
+            "id": 2,
+            "content": "A Great White Shark"
+          },
+          {
+            "id": 3,
+            "content": "A Blue Whale"
+          },
+          {
+            "id": 4,
+            "content": "A Sperm Whale"
+          }
+        ],
+        "answerId": 4
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Movie Trivia Quiz",
+    "author": "Jack Wilson",
+    "created": "2024-09-06",
+    "quizList": [
+      {
+        "id": "1",
+        "quiz": "Who directed the movie 'Inception'?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Steven Spielberg"
+          },
+          {
+            "id": 2,
+            "content": "Christopher Nolan"
+          },
+          {
+            "id": 3,
+            "content": "Quentin Tarantino"
+          },
+          {
+            "id": 4,
+            "content": "James Cameron"
+          }
+        ],
+        "answerId": 2
+      },
+      {
+        "id": "2",
+        "quiz": "Which movie features the character Jack Sparrow?",
+        "selector": [
+          {
+            "id": 1,
+            "content": "Harry Potter"
+          },
+          {
+            "id": 2,
+            "content": "Pirates of the Caribbean"
+          },
+          {
+            "id": 3,
+            "content": "The Lord of the Rings"
+          },
+          {
+            "id": 4,
+            "content": "Star Wars"
+          }
+        ],
+        "answerId": 2
+      }
+    ]
+  }
+]
