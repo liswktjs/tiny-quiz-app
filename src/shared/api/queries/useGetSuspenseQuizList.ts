@@ -1,20 +1,11 @@
+import { useSuspenseQuery } from "@tanstack/react-query";
 import {
-  QueryOptions,
-  useSuspenseQuery,
-} from "@tanstack/react-query";
-import { ApiResponse } from "../type";
+  ApiResponse,
+  SuspenseQueryOptions,
+} from "../type";
 import { api } from "../utils";
 import { QUIZ_QUERY_KEY } from "./key";
-
-export interface QuizItemType {
-  id: string;
-  quiz: string;
-  selector: {
-    id: number;
-    content: string;
-  }[];
-  answerId: number;
-}
+import { QuizItemType } from "@/shared/type/quiz";
 
 export interface GetQuizListResponse {
   id: string;
@@ -22,12 +13,6 @@ export interface GetQuizListResponse {
   author: string;
   created: string;
   quizList: QuizItemType[];
-}
-
-interface GetQuizListRequest {
-  options?: QueryOptions<
-    GetQuizListResponse[]
-  >;
 }
 
 const getQuizList = async (): Promise<
@@ -40,9 +25,11 @@ const getQuizList = async (): Promise<
   return response.data.data;
 };
 
-const useGetSuspenseQuizList = ({
-  options = {},
-}: GetQuizListRequest) => {
+const useGetSuspenseQuizList = (
+  options?: SuspenseQueryOptions<
+    GetQuizListResponse[]
+  >
+) => {
   return useSuspenseQuery({
     queryFn: () => getQuizList(),
     queryKey: QUIZ_QUERY_KEY.quizList,

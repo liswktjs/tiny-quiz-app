@@ -12,7 +12,7 @@ const QuizListSection = () => {
     useQuizContext();
 
   const { data } =
-    useGetSuspenseQuizList({});
+    useGetSuspenseQuizList();
 
   return (
     <>
