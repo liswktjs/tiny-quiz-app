@@ -2,9 +2,14 @@ import Button from "@/shared/components/Button";
 import QuizItem from "../QuizItem";
 import { useQuizContext } from "@/shared/context/QuizContextProvider";
 import useGetSuspenseQuizList from "@/shared/api/queries/useGetSuspenseQuizList";
+import { useRouter } from "next/navigation";
+import { ROUTER } from "@/shared/constants/ROUTER";
 
 const QuizListSection = () => {
-  const { quizId } = useQuizContext();
+  const router = useRouter();
+
+  const { quizId, setQuizId } =
+    useQuizContext();
 
   const { data } =
     useGetSuspenseQuizList({});
@@ -23,7 +28,12 @@ const QuizListSection = () => {
               author={author}
               title={title}
               date={created}
-              onQuizItemClick={() => {}}
+              onQuizItemClick={() => {
+                setQuizId((pre) =>
+                  pre === id ? null : id
+                );
+              }}
+              isActive={quizId === id}
               key={id}
             />
           )
@@ -33,6 +43,11 @@ const QuizListSection = () => {
         className="text-2xl p-2 w-[325px]"
         disabled={quizId === null}
         variant="cobalt"
+        onClick={() => {
+          router.push(
+            `${ROUTER.quiz}/${quizId}`
+          );
+        }}
       >
         start
       </Button>
