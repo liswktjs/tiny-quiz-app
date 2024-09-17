@@ -25,17 +25,20 @@ export interface GetQuizListResponse {
 }
 
 interface GetQuizListRequest {
-  options?: QueryOptions<GetQuizListResponse>;
+  options?: QueryOptions<
+    GetQuizListResponse[]
+  >;
 }
 
-const getQuizList =
-  async (): Promise<GetQuizListResponse> => {
-    const response = await api.get<
-      ApiResponse<GetQuizListResponse>
-    >("/quiz");
+const getQuizList = async (): Promise<
+  GetQuizListResponse[]
+> => {
+  const response = await api.get<
+    ApiResponse<GetQuizListResponse[]>
+  >("/quiz");
 
-    return response.data.data;
-  };
+  return response.data.data;
+};
 
 const useGetSuspenseQuizList = ({
   options = {},
